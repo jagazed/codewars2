@@ -4,4 +4,4 @@ function fits(x, y){
     }
     return 'Does not';
 }
-console.log(fits(5, 10);
+console.log(fits(5, 10));
