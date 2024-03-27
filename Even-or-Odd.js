@@ -5,3 +5,8 @@ function evenOrOdd(number){
         return "Odd";
     }
 }
+
+//similar solution
+//function evenOrOdd(number) {
+//    return number % 2 === 0 ? 'Even' : 'Odd';
+//}
