@@ -4,9 +4,8 @@
 //
 // MY SOLUTION:
 function logs(x , a, b){
-    return x = Math.log(a) / Math.log(x) + Math.log(b) / Math.log(x);
+    return Math.log(a) / Math.log(x) + Math.log(b) / Math.log(x);
 }
-console.log(logs(2, 3, 4));
 // OTHER SOLUTION:
 // const logs = (x,a,b) => Math.log(a*b)/Math.log(x)
 //
