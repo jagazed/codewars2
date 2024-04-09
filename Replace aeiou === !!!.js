@@ -7,13 +7,13 @@
 // replace("aeiou") === "!!!!!"
 // replace("ABCDE") === "!BCD!"
 
-//My solution
+// My solution
 function replace(s){
     s = s.replace(/[aeiouAEIOU]/g, '!');
     return s;
 }
 
-//Another solution
+// Another solution
 //
 // function replace(s){
 //     return s.replace(/[aeoiu]/ig, '!')
